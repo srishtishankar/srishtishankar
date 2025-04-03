@@ -12,12 +12,15 @@ body {
 }
 
 .navbar-inverse {
-    background-color: transparent;
+    background-color: #00000075;
     border-color: transparent;
 }
 
-.navbar-inverse .navbar-nav li a {
-      color: black;
+.navbar-nav li a{
+  color: #ffffff !important;
+  font-weight: 600;
+  padding-right: 30px;
+  padding-left: 30px;
 }
 
 h1,
@@ -66,7 +69,9 @@ b {
   opacity: 0.01;
   }
 
- .scroll {
+}
+
+.scroll {
   animation-name: scroll;
   animation-duration: 1.5s;
   animation-timing-function: cubic-bezier(0.650, -0.550, 0.250, 1.500);
